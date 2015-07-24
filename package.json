@@ -1,0 +1,17 @@
+{
+  "name": "teamboard-migrate",
+  "version": "1.0.0",
+  "description": "DB Migration scripts for Contriboard",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "babel-node index.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "babel": "^5.6.23",
+    "highland": "^2.5.1",
+    "mongodb": "^2.0.39"
+  }
+}
